@@ -39,7 +39,7 @@ Get-Credential –Credential GalleryAdmin | Export-Clixml 'C:\PSPrivateGallery\C
 
 ### Deploy the PowerShell Gallery, using PSPrivateGallery.ps1
 ```
-Set-Folder “C:\PSPrivateGallery\Configuration”
+Set-Location “C:\PSPrivateGallery\Configuration”
 . .\PSPrivateGallery.ps1
 ```
 
