@@ -30,4 +30,4 @@ Set-Location “C:\PSPrivateGallery\Configuration”
 . .\PSPrivateGallery.ps1
 
 # Open Private PowerShell Hallery
-Invoke-Item 'http://localhost:8080'
+Start-Process 'http://localhost:8080'
