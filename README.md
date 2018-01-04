@@ -43,7 +43,7 @@ Set-Location “C:\PSPrivateGallery\Configuration”
 . .\PSPrivateGallery.ps1
 ```
 
-### Open Private PowerShell Hallery
+### Open Private PowerShell Gallery
 ```
-Invoke-Item 'http://localhost:8080'
+Start-Process 'http://localhost:8080'
 ```
